@@ -1,0 +1,12 @@
+{
+  "name": "sdf-raymarcher",
+  "version": "1.0.0",
+  "private": true,
+  "description": "From-scratch WebGL2 signed-distance-field ray marcher with smooth-min blending, soft shadows, and ambient occlusion.",
+  "type": "module",
+  "scripts": {
+    "test": "node test/camera.test.js",
+    "serve": "npx --yes serve . -l 8080"
+  },
+  "license": "MIT"
+}
